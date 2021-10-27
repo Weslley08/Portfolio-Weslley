@@ -5,27 +5,29 @@
   justify-content: space-around;
   align-content: center;
   align-items: center;
-  margin-top: 70px;
+  margin-top: 6%;
 }
 
 .item {
   background-color: #4a4aeb;
   color: #fff;
-  padding: 10px;
-  margin: 50px 50px;
-  border-radius: 40px;
+
+  /* padding: 10px; */
+  margin-bottom: 6%;
+  border-radius: 50px;
 }
 
 .item1 {
-  margin-top: 80px;
-  flex-flow: row wrap;
-  justify-content: center;
+  flex: 50%
+}
+
+.item2 {
+  flex: 50%
 }
 
 /* FIM FLEX BOX */
 
 .default {
-  flex-direction: row;
   justify-content: center;
   background-image: url("img/fundoTela.jpg"); /*imagem retirada do site: https://br.freepik.com/vetores/estrela'>Estrela vetor criado por vectorpouch - br.freepik.com */
   background-repeat: no-repeat;
@@ -43,11 +45,12 @@ html {
 }
 
 h1 {
+  text-align: center;  
   padding-top: 50px;
 }
 
-h1 {
-  text-align: center;
+h5 {
+  margin-left: 5%;
 }
 
 p {

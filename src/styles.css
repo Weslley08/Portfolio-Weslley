@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+  justify-content: center;
+  background-image: url("./assets/fundoTela.jpg"); /* imagem retirada do site: https://br.freepik.com/vetores/estrela'>Estrela vetor criado por vectorpouch - br.freepik.com */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+body {
+  overflow: auto;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: white;
+  border-radius: 30px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 30px;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: gray white;
+}
